@@ -9,7 +9,7 @@ function ActivitySection() {
 
   return (
     <div className="section-box">
-      <h4>Recent Activities</h4>
+      <h4> Activities</h4>
 
       {activities.map((item, index) => (
         <div className="activity-item" key={index}>
